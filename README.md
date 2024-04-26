@@ -9,8 +9,11 @@ During my time helping students with their assignments in the operating systems 
 ## Outputs
 
 ### Raw Unix File
+![Example Image](raw-file-output.png)
 
 ### Parsed Unix Commands File
+![Example Image](images/example.png)
 
 ### Program Process
+![Example Image](shell-script-program-output.png)
 
