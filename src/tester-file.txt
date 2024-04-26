@@ -1,0 +1,75 @@
+Script started on October  2, 2023 at  3:44:47 PM EDT
+[?2004hjohndoe@uni-cs-unix:~$ uname
+[?2004l
+SunOS
+[?2004hjohndoe@uni-cs-unix:~$ 
+[Kjohndoe@uni-cs-unix:~$ uname -r
+[?2004l
+5.11
+[?2004hjohndoe@uni-cs-unix:~$ uname -n
+[?2004l
+uni-cs-unix
+[?2004hjohndoe@uni-cs-unix:~$ hostname
+[?2004l
+uni-cs-unix
+[?2004hjohndoe@uni-cs-unix:~$ stty-a[K[K -a
+[?2004l
+speed 38400 baud; 
+rows = 26; columns = 93; ypixels = 0; xpixels = 0;
+csdata ?
+eucw 1:0:0:0, scrw 1:0:0:0
+intr = ^c; quit = ^\; erase = ^?; kill = ^u;
+eof = ^d; eol = <undef>; eol2 = <undef>; swtch = <undef>;
+start = ^q; stop = ^s; susp = ^z; dsusp = ^y;
+rprnt = ^r; flush = ^o; werase = ^w; lnext = ^v;
+-parenb -parodd cs8 -cstopb -hupcl cread -clocal -loblk -crtscts -crtsxoff -parext 
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl -iuclc 
+ixon -ixany -ixoff imaxbel 
+isig icanon -xcase echo echoe echok -echonl -noflsh 
+-tostop echoctl -echoprt echoke -defecho -flusho -pendin iexten 
+opost -olcuc onlcr -ocrnl -onocr -onlret -ofill -ofdel tab3 
+[?2004hjohndoe@uni-cs-unix:~$ echo The key setting to discard current command line is control u
+[?2004l
+The key setting to discard current command line is control u
+[?2004hjohndoe@uni-cs-unix:~$ echo the [K[K[K[KThe key setting to backsa[Kpace is control h
+[?2004l
+The key setting to backspace is control h
+[?2004hjohndoe@uni-cs-unix:~$ date
+[?2004l
+Monday, October  2, 2023 at  3:45:58 PM EDT
+[?2004hjohndoe@uni-cs-unix:~$ who
+[?2004l
+johndoe       pts/1        Oct  2 15:24    (45.73.140.12)
+[?2004hjohndoe@uni-cs-unix:~$ cd /
+[?2004l
+[?2004hjohndoe@uni-cs-unix:/$ pwd
+[?2004l
+/
+[?2004hjohndoe@uni-cs-unix:/$ ls -l
+[?2004l
+total 444
+lrwxrwxrwx   1 root     root           9 Sep 29 09:37 bin -> ./usr/bin
+drwxr-xr-x   5 root     sys            9 Sep 29 09:37 boot
+drwxr-xr-x 227 root     sys          227 Sep 29 10:53 dev
+drwxr-xr-x   5 root     sys            6 Sep 29 10:54 devices
+drwxr-xr-x  82 root     sys          174 Oct  2 11:11 etc
+drwxr-xr-x   3 root     sys            3 Sep 29 10:54 export
+dr-xr-xr-x   1 root     root           1 Sep 29 10:54 home
+drwxr-xr-x  21 root     sys           21 Sep 29 09:25 kernel
+drwxr-xr-x  12 root     bin          276 Sep 29 09:25 lib
+drwxr-xr-x   2 root     root           3 Sep 29 10:54 media
+drwxr-xr-x   2 root     sys            2 Dec  4  2021 mnt
+dr-xr-xr-x   1 root     root           1 Sep 29 10:54 net
+dr-xr-xr-x   1 root     root           1 Sep 29 10:54 nfs4
+drwxr-xr-x   2 root     sys            2 Dec  4  2021 opt
+drwxr-xr-x   4 root     sys            4 Dec  4  2021 platform
+dr-xr-xr-x  84 root     root      480032 Oct  2 15:46 proc
+drwxr-xr-x   4 root     root           5 Sep 29 09:25 rmdisk
+drwx------   2 root     root           5 Sep 29 11:05 root
+drwxr-xr-x   3 root     root           3 Sep 29 09:44 rpool
+lrwxrwxrwx   1 root     root          10 Sep 29 09:37 sbin -> ./usr/sbin
+drwxr-xr-x   7 root     root           7 Sep 29 10:54 system
+drwxrwxrwt   4 root     sys          470 Oct  2 15:39 tmp
+drwxr-xr-x  30 root     sys           40 Sep 29 09:35 usr
+drwxr-xr-x  41 root     sys           50 Sep 29 10:55 var
+-r--r--r--   1 root     root      299208 Dec  4  2021 zvboot
