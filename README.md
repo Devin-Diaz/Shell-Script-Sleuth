@@ -5,3 +5,12 @@ ShellScriptSleuth is a tool designed to efficiently parse and extract command-li
 
 ## Motivation
 During my time helping students with their assignments in the operating systems course, I found myself frequently navigating through extensive shell script logs. These files captured complete interactive sessions hosted on the university's Unix server, containing not just the commands but also outputs and miscellaneous terminal interactions. This made the review process time-consuming and cumbersome, as distinguishing relevant command inputs from outputs and system messages was manually intensive.
+
+## Outputs
+
+### Raw Unix File
+
+### Parsed Unix Commands File
+
+### Program Process
+
