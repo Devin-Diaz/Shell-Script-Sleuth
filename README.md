@@ -12,7 +12,7 @@ My experience assisting students in an operating systems course highlighted the 
 ### Raw Unix File
 ![Example of Raw Unix File Output](raw-file-output.png)
 
-### Parsed Unix Commands File
+### Parsed Unix Commands File (Generated via Java FileWriter)
 ![Example of Parsed Unix Commands File](file-writer-output.png)
 
 ### Program Process
