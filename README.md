@@ -12,7 +12,7 @@ During my time helping students with their assignments in the operating systems 
 ![Example Image](raw-file-output.png)
 
 ### Parsed Unix Commands File
-![Example Image](images/example.png)
+![Example Image](file-writer-output.png)
 
 ### Program Process
 ![Example Image](shell-script-program-output.png)
